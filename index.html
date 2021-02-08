@@ -5,78 +5,111 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
 
 
     <title>Resources for the Homeless</title>
 </head>
 
 <body>
-    <div class="row>" 
-        <header>
-            <nav>
-                <ul>
-                    <li><a>Home</a></li>
-                    <li><a>Category</a></li>
-                    <li><a>Resources</a></li>
-                    <li><a>Services</a></li>
-                    <li><a>How to get involved</a></li>
+    <div class="container-fluid">
+
+
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">DMHSG</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Category</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Resources</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#">How to get involved</a>
+                    </li>
                 </ul>
-            </nav>
-        </header>
-    </div><!--row closes here-->
-
-    <div class="row">
-        <div class="hero-home">
-            <h1>Denver Metro Homeless Survival Guide</h1>
-            <!--put a quote under this in header-->
-            <p>"It takes a society to combat homelessness, and a strong nation to fight poverty" – Wayne Chirisa</p>
-        </div>
-    </div><!--div row closes here-->
-    <div class="row">
-        <div class="six>" 
-            <div class="content image">
-
             </div>
+        </nav>
 
+    </div>
+
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4">Denver Metro Homeless Survival Guide</h1>
+            <p class="lead">"It takes a society to combat homelessness, and a strong nation to fight poverty" – Wayne
+                Chirisa</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="column">
+            <div class="image-parent">
+                <img src="images/home.jpg" class="img-fluid" alt="hand">  
+                
         </div>
 
-    </div><!--column 6 ends here-->
-
-    <div class="row">
-        <div class="six>" 
-            <div class="content">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi cum sint quidem molestiae nostrum
-                excepturi,
-                ipsa, praesentium temporibus enim explicabo quia expedita provident nobis repudiandae, libero optio.
-                Ea, sequi
-                numquam?</p>
+        <div class="card-group">
+            <div class="card">
+            <img src="images/dollar2.jpeg" alt="dollar symbol">
+              <div class="card-body">
+                <h5 class="card-title">EBT card</h5>
+                <p class="card-text">How to apply for benefits such as: SNAP, SSI, & SSDI</p>
+                <p class="card-text"><small class="text-muted"></small></p>
+                <a href="#" class="btn btn-outline-dark">Start Here</a>
             </div>
-        </div>
-    </div><!--column 6 ends here-->
+            </div>
+            <div class="card">
+                <img src="images/camp.jpg" alt="Camp symbol">
+              <div class="card-body">
+                <h5 class="card-title">Safe Campsites and Shelters</h5>
+                <p class="card-text">A complete list where to find shelters and designated safe campsites.</p>
+                <p class="card-text"><small class="text-muted"></small></p>
+                <a href="#" class="btn btn-outline-dark">Start Here</a>
+            </div>
+            </div>
+            <div class="card">
+                <img src="images/medical-symbol.jpg" alt="Medical Symbol">
+              <div class="card-body">
+                <h5 class="card-title">Medical Services</h5>
+                <p class="card-text">List of facilities that service the homless populatiom that offer Medical, Dental, Vision, and Psychiatry.</p>
+                <p class="card-text"><small class="text-muted"></small></p>
+                <a href="#" class="btn btn-outline-dark">Start Here</a>
+            </div>
+            </div>
+          </div>
 
-
-    <div class="row">
-        <footer>
-            <div class="three">
-                <h4>Contact Information</h4>
-                <ul>
-                    <li>number</li>
-                    <li>email</li>
-                    <li>address</li>
-
-                </ul>
-            </div><!--column 3 closes here-->
+       
+          
+       
+        i want 3 cards colums consisting of 
+        EBT
+        Safe Camping/Shelter
+        Medical Services
+        
             
-            <div class="six"></div>
-                <h4>Sign Up Form</h4>
-                <p>Get nvoled here</p>
-            </div><!--column 6 closes here-->
-    
-            <div class="three">
-                <h4>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid ducimus consequatur harum, culpa, unde
-                enim nisi dolorem laborum ea soluta rem aut nesciunt nobis ut quam beatae nostrum? Fuga, ex?</h4>
-
-             </div>
 
         </footer>
     </div>
