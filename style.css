@@ -17,3 +17,8 @@ p,li{
   .right {
     width: 75%;
   }
+
+  img {
+      width: 100%;
+      max-width: 300%;
+  }
