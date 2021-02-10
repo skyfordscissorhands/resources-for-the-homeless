@@ -1,11 +1,27 @@
-h1{
+h1,h5{
     font-size: 65px;
     color: black;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
+
 }
 p,li{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:'Montserrat', sans-serif;
 }
+h4{
+  font-size: 45px;
+  color:black;
+  font-family:'Space Grotesk', sans-serif;
+  font-style: italic;
+  font-weight: normal;
+}
+
+.col-md-6 text-center{align-content: center;}
+.img-fluid{
+  max-width: 100%;
+  height: auto;
+}
+
+
 .column {
     float: left;
   }
@@ -18,7 +34,10 @@ p,li{
     width: 75%;
   }
 
-  img {
-      width: 100%;
-      max-width: 300%;
-  }
+  .card-img-top {
+    flex-grow: 1;
+    object-fit:contain;
+}
+.card-body{
+    flex-grow:0;
+}
