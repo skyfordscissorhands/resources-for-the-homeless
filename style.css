@@ -8,20 +8,21 @@ p,li{
     font-family:'Montserrat', sans-serif;
 }
 h4{
-  font-size: 35px;
-  color:black;
-  font-family:'Space Grotesk', sans-serif;
+  font-size: 30px;
+  font-family: 'Space Grotesk', sans-serif;
   font-style: italic;
-  font-weight:normal;
+}
+  
+  
+  
+ 
 }
 
-.col-md-6 text-center{align-content: center;}
-
-.img-fluid1{
-  max-width: 100%;
-  height: auto;
-  margin:0;
+.img{
+  width: fit-content;
 }
+
+
 
 
 .column {
